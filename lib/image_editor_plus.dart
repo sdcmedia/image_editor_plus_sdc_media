@@ -290,6 +290,16 @@ class _MultiImageEditorState extends State<MultiImageEditor> {
                                 builder: (context) => SingleImageEditor(
                                   image: image,
                                   outputFormat: o.OutputFormat.jpeg,
+                                  savePath: widget.savePath,
+                                  cropOption: widget.cropOption,
+                                  textOption: widget.textOption,
+                                  blurOption: widget.blurOption,
+                                  emojiOption: widget.emojiOption,
+                                  filtersOption: widget.filters option,
+                                  rotateOption: widget.rotateOption,
+                                  brushOption: widget.brushOption,
+                                  flipOption: widget.flipOption,
+                                  imagePickerOption: widget.imagePickerOption,
                                 ),
                               ),
                             );
