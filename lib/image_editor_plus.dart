@@ -295,7 +295,7 @@ class _MultiImageEditorState extends State<MultiImageEditor> {
                                   textOption: widget.textOption,
                                   blurOption: widget.blurOption,
                                   emojiOption: widget.emojiOption,
-                                  filtersOption: widget.filters option,
+                                  filtersOption: widget.filtersOption,
                                   rotateOption: widget.rotateOption,
                                   brushOption: widget.brushOption,
                                   flipOption: widget.flipOption,
